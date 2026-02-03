@@ -25,6 +25,8 @@ Streaming: Apache Spark 3.5.0, Apache Kafka
 
 Storage: Apache Cassandra, Delta Lake 3.0.0
 
+Visualization: Folium, Pandas, Matplotlib
+
 Containerization: Docker & Docker Compose
 
 
@@ -38,11 +40,12 @@ Containerization: Docker & Docker Compose
 
 ## 📊 Data Analysis & Insights
 The pipeline successfully captures satellite data when it enters the predefined bounding box (Europe/Romania).
+I used a dedicated analysis script to visualize the satellite positions.
 
-Example Insights captured:
+Interactive Map: Generated using Folium, showing precise locations of intercepted satellites.
 
-Starlink Satellites: Account for over 70% of the tracked traffic.
+Data Insights: The pipeline successfully filtered real-time streams to capture only relevant orbital passes over the targeted European bounding box.
 
-Processing Latency: Average end-to-end latency from API to Cassandra is under 2 seconds.
+<img width="1000" height="500" alt="map" src="https://github.com/user-attachments/assets/fb730960-e58b-41b4-aa77-a40556858be1" />
 
 
