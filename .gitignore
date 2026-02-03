@@ -1,0 +1,10 @@
+# Date și log-uri
+checkpoint/
+delta_storage/
+delta_europe_data/
+delta_romania_data/
+*.csv
+__pycache__/
+
+# Docker
+.env
