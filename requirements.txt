@@ -1,5 +1,11 @@
+# Pipeline & Ingestion
 kafka-python
 requests
+
+# Data Processing & Analysis
 pandas
-folium
 matplotlib
+folium
+
+# Note: Spark and Cassandra are handled via Docker, 
+# so they don't need to be in this Python requirements file.
