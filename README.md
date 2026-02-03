@@ -1,6 +1,9 @@
-in progress
+
 # Real-Time Satellite Geo-Fencing Pipeline
 Real-time Data Engineering pipeline tracking satellites via N2YO API. Uses Python &amp; Apache Kafka for ingestion, Spark Structured Streaming for geo-fencing, and a dual-storage strategy: Delta Lake for ACID transactions and Apache Cassandra for NoSQL real-time access. Fully containerized with Docker.
+
+<img width="1000" height="400" alt="satelite_map drawio" src="https://github.com/user-attachments/assets/e5f005ab-12ec-40de-b26b-545be6e71ba8" />
+
 
 ## 🏗️ Architecture
 Data Source: N2YO API (Real-time orbital data).
